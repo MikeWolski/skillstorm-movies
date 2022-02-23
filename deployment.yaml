@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: mykube
+  name: movie-apps
   labels:
     app: movies
 spec:
@@ -15,7 +15,7 @@ spec:
         app: movies
     spec:
       containers:
-      - name: mykube
+      - name: movie-app
         image: mwolski22/movie_app
         ports:
         - containerPort: 3000
@@ -24,7 +24,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: mykube
+  name: movie-apps
 spec:
   selector:
     app: movies
