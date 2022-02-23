@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: mykube
-        image: mwolski22/mykube
+        image: mwolski22/mykube:cff0c6f3e45adf883066543bc4b7950c819b0d88
         ports:
         - containerPort: 80
         imagePullPolicy: Always
