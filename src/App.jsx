@@ -12,8 +12,8 @@ export const App = () => {
                 <Grid item>
                     {/* Please change the header title or body text to whatever you wish */}
                     <Header>
-                        <Title>SkillStorm Movies</Title>
-                        <Body>Enter your text here.</Body>
+                        <Title>Wolski Movies</Title>
+                        <Body>The best and only place to watch Wolski movies.</Body>
                     </Header>
                 </Grid>
             </Grid>
