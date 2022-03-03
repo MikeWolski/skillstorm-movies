@@ -12,8 +12,13 @@ export const App = () => {
                 <Grid item>
                     {/* Please change the header title or body text to whatever you wish */}
                     <Header>
+<<<<<<< HEAD
                         <Title>Wolski Movies</Title>
                         <Body>The best and only place to watch Wolski movies.</Body>
+=======
+                        <Title>AzureDevops</Title>
+                        <Body>Enter your text here.</Body>
+>>>>>>> 26147223a7c598840eabf4b65e95f4f6d4261dfa
                     </Header>
                 </Grid>
             </Grid>

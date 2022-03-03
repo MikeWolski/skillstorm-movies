@@ -15,8 +15,13 @@ spec:
         app: movies
     spec:
       containers:
+<<<<<<< HEAD
       - name: movie-app2
         image: mwolski22/movie_app2
+=======
+      - name: movie-app
+        image: mwolski22/movie_app
+>>>>>>> 26147223a7c598840eabf4b65e95f4f6d4261dfa
         ports:
         - containerPort: 3000
         imagePullPolicy: Always
